@@ -10,15 +10,15 @@ This idea provides mechanism to detect whether the android application is tamper
 2)	Check whether the app is signed with Debug Keystore
 3)	Don't allow the app to run on Device Emulator
 
-<b>Work in progress</b>
-4)	PENDING - Verifying the checksum of the application package
-5)	PENDING - Application signature check at runtime
-6)	PENDING - Implementing SafetyNet API to protect the app and app's data against security threats, including device tampering, bad URLs, potentially harmful apps, and fake users.
-7)	PENDING - Check whether Google Play Services is available or not
-8)	PENDING - Check whether the app is running on a rooted device and provide appropriate warning to the user
+<b>Work in progress</b><br>
+1)	PENDING - Verifying the checksum of the application package
+2)	PENDING - Application signature check at runtime
+3)	PENDING - Implementing SafetyNet API to protect the app and app's data against security threats, including device tampering, bad URLs, potentially harmful apps, and fake users.
+4)	PENDING - Check whether Google Play Services is available or not
+5)	PENDING - Check whether the app is running on a rooted device and provide appropriate warning to the user
 
 
-<b>Implementaion required at the server side</b>
+<b>Implementaion required at the server side</b><br>
 Add the below implementations at the server component to detect whether the HTTP requests are coming from the valid application.
 1) Check whether the application package is renamed - Pass current application package to the HTTP Header
 2) Add the SHA1Fingerprint of the current signing keystore to the HTTP Header
