@@ -53,3 +53,24 @@ google-services.json
 freeline.py
 freeline/
 freeline_project_description.json
+
+# Heap/CPU Profile files
+*.hprof
+
+
+# Eclipse project files
+.classpath
+.project
+
+# Android Studio
+.idea/
+.gradle
+/*/local.properties
+/*/out
+/*/*/build
+/*/*/production
+*.iml
+*.iws
+*.ipr
+*~
+*.swp
