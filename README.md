@@ -1,11 +1,11 @@
 # Android Application Tamper Detection
 
-This project aims at enabling the application to do self check of possible tampers. This library provies additional mechanisms to detect tampers by reverse engineering process. 
+This project aims at enabling the application to do self check of possible tampers. This library provides additional mechanisms to detect tampers by reverse engineering process. 
 
 
 ## Checklists
 
-This idea provides mechanism to detect whether the android application is tampered or not. The minimum required check are listed below.
+This idea provides a mechanism to detect whether the android application has tampered or not. The minimum required check are listed below.
 1)	Check the source from where the application is installed
 2)	Check whether the app is signed with Debug Keystore
 3)	Don't allow the app to run on Device Emulator
